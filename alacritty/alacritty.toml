@@ -1,0 +1,44 @@
+general.import = [
+  "/opt/homebrew/lib/node_modules/alacritty-themes/themes/Catppuccin-Latte.toml"
+]
+
+[font]
+size = 13.0
+
+[font.normal]
+family = "JetBrainsMono Nerd Font"
+style = "Regular"
+
+[font.bold]
+family = "JetBrainsMono Nerd Font"
+style = "Bold"
+
+[font.italic]
+family = "JetBrainsMono Nerd Font"
+style = "Italic"
+
+[font.bold_italic]
+family = "JetBrainsMono Nerd Font"
+style = "Bold Italic"
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[keyboard]
+bindings = [
+  # Better word navigation (Ctrl+Left/Right)
+  { key = "Left", mods = "Control", chars = "\u001b[1;5D" },
+  { key = "Right", mods = "Control", chars = "\u001b[1;5C" },
+  
+  # Search history (Ctrl+R)
+  { key = "R", mods = "Control", chars = "\u0012" },
+  
+  # Clear terminal (Ctrl+L)
+  { key = "L", mods = "Control", chars = "\u000c" },
+  
+  # Copy/Paste (Cmd+C/V on macOS)
+  { key = "C", mods = "Command", action = "Copy" },
+  { key = "V", mods = "Command", action = "Paste" },
+]
+

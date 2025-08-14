@@ -1,0 +1,3 @@
+import = [
+  "/opt/homebrew/lib/node_modules/alacritty-themes/themes/3024.light.toml"
+]
