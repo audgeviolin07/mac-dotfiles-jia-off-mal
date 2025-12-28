@@ -39,4 +39,13 @@ return require('packer').startup(function(use)
   use('folke/tokyonight.nvim')
   use ('nvim-tree/nvim-tree.lua')
   use ('nvim-tree/nvim-web-devicons')
+
+  -- Discord Rich Presence
+  use('andweeb/presence.nvim')
+
+  -- Git signs in gutter
+  use('lewis6991/gitsigns.nvim')
+
+  -- Lazygit integration
+  use('kdheepak/lazygit.nvim')
 end)
